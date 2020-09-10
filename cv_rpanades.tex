@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.83]{geometry} % Reduce document margins
+\usepackage{fontawesome}
+\usepackage{xcolor}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\definecolor{unazul}{HTML}{539bd7}
+\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
+\newcommand*{\stackovsocialsymbol}{\includegraphics[height=.75\baselineskip]{stacko}}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{\LARGE Ramón L.} % Your first name
+\familyname{\Huge PANAD\'ES-BARRUETA} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{\small Ave Paul Langevin, Residence REEFLEX A316, Villeneuve d'Ascq, France}
+%\address{Residence REEFLEX B\^at. A-316}{Ave Paul Langevin, Cité Scientifique, 59650 VILLENEUVE D'ASCQ}
+\mobile{(+33) 769205894}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\social[github][github.com/Panadestein]{GitHub} 
+\social[linkedin][www.linkedin.com/in/ram\%C3\%B3n-l-panad\%C3\%A9s-barrueta-a3b851129/]{LinkedIn}
+\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=IMWuq6wAAAAJ&hl=en}{ Google Scholar}}
+\collectionadd[stackov]{socials}{\href{https://stackoverflow.com/users/5661001/panadestein?tab=profile}{ Stackoverflow}}
+\email{rpana92@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[75pt][0.3pt]{pictures/newlook2.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2017--2020}{PhD Candidate in Physics}{\href{www.univ-lille.fr}{\textcolor{unazul}{Universit\'e de Lille}}, Laboratoire de Physique des Lasers, Atomes et Molécules (\href{phlam.univ-lille.fr}{\textcolor{unazul}{PhLAM}})}{France}{}{}
+\cvitem{}{Thesis title: Full quantum simulations of the interaction between atmospheric molecules and model soot particles}
+\cvitem{}{Supervisor: Prof. Dr. Daniel PEL\'AEZ-RUIZ (\href{http://www.ismo.u-psud.fr/spip.php?rubrique28&lang=fr}{\textcolor{unazul}{ISMO}}, Université Paris-Saclay)}
+\cventry{2016--2017}{MSc in Physics (International Master 2 Atmospheric Environments)}{\href{www.univ-lille.fr}{\textcolor{unazul}{Universit\'e de Lille}}, Laboratoire de Physique des Lasers, Atomes et Molécules (\href{phlam.univ-lille.fr}{\textcolor{unazul}{PhLAM}})}{France}{}{\textbf{Distinction: \textit{Mention Bien}}}  % Arguments not required can be left empty
+\cvitem{}{Thesis title: Towards a quantum dynamical description of the photodissociation of $Cl_{2}$ molecule adsorbed on ice}
+\cvitem{}{Supervisors: Prof. Dr. Daniel PELAEZ-RUIZ and Prof. Dr. Maurice MONNERVILLE}
+\cventry{2011--2016}{BSc in Radiochemistry}{University of Havana, Higher Institute of Technologies and Applied Sciences (\href{www.instec.cu}{\textcolor{unazul}{InSTEC}})}{Havana, Cuba}{}{\textbf{Distinction: \textit{Summa Cum Laude}}}  % Arguments not required can be left empty
+\cvitem{}{Thesis title: Mean Potential Phase Space Theory study of the 
+$Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)$ reaction}
+\cvitem{}{Supervisor: Dr. Alejandro RIVERO-SANTAMAR\'IA (\href{https://cfm.ehu.es/team/alejandro-rivero-santamaria/}{\textcolor{unazul}{CMF}}, Universidad del Pais Vasco)}
+
+\section{Publications}
+\cvitem{2020}{Panadés-Barrueta, R. L. and Peláez, D. \textbf{Low-Rank Sum-of-Products Finite-Basis-Representation
+(SOP-FBR) of Potential Energy Surfaces}, \textcolor{unazul}{The Journal of Chemical Physics, \textit{in review}}}
+\cvitem{2019}{Panadés-Barrueta, R. L., Martínez-Núñez, E., \& Peláez, D. (2019). \textbf{Specific Reaction Parameter Multigrid POTFIT (SRP-MGPF): Automatic Generation of Sum-of-Products Form Potential Energy Surfaces for Quantum Dynamical Calculations}, \href{https://doi.org/10.3389/fchem.2019.00576}{\textcolor{unazul}{Frontiers in Chemistry, \textbf{7}, 576.}} Included in the book \href{https://www.frontiersin.org/research-topics/9088/application-of-optimization-algorithms-in-chemistry}{\textcolor{unazul}{Application of Optimization Algorithms in Chemistry}}}
+\cvitem{2016}{Panadés-Barrueta, R. L., Rubayo-Soneira, J., Monnerville, M., Larregaray, P., Dayou, F., \& Rivero-Santamaría, A. (2016). \textbf{Mean Potential Phase Space Theory study of the $\mathbf{Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)}$ reaction}, \href{http://www.revistacubanadefisica.org/index.php/rcf/article/view/65}{\textcolor{unazul}{Revista Cubana de Física, \textbf{33(2)}, 102-117.}}}
+
+\section{Seminars and conferences}
+
+\cventry{August 2020}{On the automatic computation of global (intermolecular) potential energy surfaces for quantum dynamical simulations}{Invited Speaker}{}{}{\href{http://spig2020.ipb.ac.rs/invited.html}{\textcolor{unazul}{Symposium and Summer School on Physics of Ionized Gases}} \\ Šabac, Serbia}
+\cventry{February 2020}{Automatic computation of global (intermolecular) potential energy surfaces for
+ (non) covalently bound systems}{Contributed Talk}{}{}{\href{https://jctmsifn.sciencesconf.org/program/details}{\textcolor{unazul}{Journée Chimie Théorique et Simulation Moléculaire IdF/Nord}} \\ Chimie ParisTech. Paris, France}
+%\cventry{April 2019}{Automatic computation of global (intermolecular) potential energy surfaces for
+% (non) covalently bound systems}{Seminar}{}{}{Laboratoire de Chimie Physique - Matière et Rayonnement (LCPMR). Paris, France}
+
+%\newgeometry{top=1.5cm}
+\section{Teaching experience}
+
+\cventry{2018--2019}{Laboratory of Thermodynamics}{}{}{}{\textbf{Place:} IUT A de Lille (Universit\'e de Lille), France \space\space\space   \textbf{No. hours:} 64 \space\space\space  \textbf{Language:} French}
+\cventry{2013--2016}{Math Analysis and Linear Algebra}{}{}{}{\textbf{Place:} InSTEC, Cuba \space\space\space  \textbf{No. hours:} 72 \space\space\space  \textbf{Language:} Spanish}
+
+\section{Honors and Awards}
+
+\cvitem{2019}{\textbf{Best Poster Prize} 10\textsuperscript{th} International Meeting on Atomic and Molecular Physics and Chemistry (IMAMPC). Madrid, Spain.}
+\cvitem{2018}{\textbf{Best Poster Prize} 6\textsuperscript{th} High Dimensional Quantum Dynamics Workshop (HDQD). Lille, France.}
+\cvitem{2018}{\textbf{PCCP Best Poster Prize} 9\textsuperscript{th} International Meeting on Atomic and Molecular Physics and Chemistry (\href{https://phlam.univ-lille.fr/detail-actu/ramon-panades-barrueta-le-prix-poster-du-journal-pccp-du-congres-imampc/}{\textcolor{unazul}{IMAMPC}}). Berlin, Germany.}
+%\cvitem{2017}{International Conference on Aerosol Cycle (ICAC). Lille, France}
+\cvitem{2015}{\textbf{ICPC Contestant} Caribbean Finals of the International Collegiate Programming Contest (ACM-ICPC). Havana, Cuba}
+\cvitem{2010}{\textbf{IChO Contestant} Captain of the Cuba Team in the 42\textsuperscript{nd} International Chemistry Olympiad (\href{https://www.icho2010.org/en/results.html}{\textcolor{unazul}{IChO 2010}}). Tokyo, Japan}
+
+\section{Competitive research grants and fellowships}
+
+\cventry{Oct.-Dec. 2019}{Research Grant German Academic Exchange Service (DAAD)}{}{}{}{Awarded by: Deutscher Akademischer Austausch Dienst \\ Place: Universität Heidelberg, Theoretical Chemistry Group \\ Supervisor: Prof. Dr. Oriol VENDRELL}
+\cventry{2016--2017}{Labex CaPPA Fellowship}{}{}{}{Awarded by: Laboratoire d'excellence \href{http://www.labex-cappa.fr/master-atmospheric-environment/fellowships}{\textcolor{unazul}{CaPPA}} \\ Place: Université de Lille }
+
+\section{Research training}
+
+\cventry{August 2019}{School EMIE-UP. Multiscale Dynamics in Molecular Systems}{École de Physique des Houches. Haute-Savoie, France}{}{}{}
+\cventry{June 2019}{3\textsuperscript{rd} Mini-school on mathematics for theoretical chemistry and physics}{Sorbonne Université, Pierre et Marie Curie. Paris, France}{}{}{}
+\cventry{June 2018}{Bridging experiment and theory in precision spectroscopy (BETS) 4\textsuperscript{th} MOLIM Training School}{Nicolaus Copernicus University. Torun, Poland}{}{}{}
+\cventry{January 2018}{Label of Theoretical Chemistry \^Ile de France-Nord}{Sorbonne Universit\'e, Pierre et Marie Curie. Paris, France}{}{}{}
+\cventry{October 2017}{Quantum Dynamics with the Multi-Configuration Time-Dependent Hartree (MCTDH) method: future and perspectives}{Universit\'e Paris-Saclay. Paris, France}{}{}{}
+
+%\section{Scientific skills}
+%
+%\cventry{2016--present}{Electronic Structure and Nuclear Quantum Dynamics}{\textit{Universit\'e  de Lille}}{France}{}{Acquired Computational Chemistry skills and performed development of methodologies, mainly applied to systems with atmospheric and astrophysical interest}
+%\cventry{2011--Present}{GNU/Linux systems}{}{}{}{Involvement in the GNU/Linux community as a part of the professional work, in particular with the Arch Linux distribution}
+
+\section{Computer skills}
+
+%\faicon{github}
+\cvitem{OS}{UNIX, (\href{archlinux.org}{\textcolor{unazul}{Arch}}) Linux, Android}
+\cvitem{Languages}{Python (SciPy, NumPy, Matplotlib), C, FORTRAN, Bash, Lisp, Julia, \LaTeX}
+\cvitem{Software}{\href{https://www.pci.uni-heidelberg.de/tc/usr/mctdh/ref.html}{\textcolor{unazul}{MCTDH}} (Developed the SOP-FBR and SRPTucker packages), MOPAC,}
+\cvitem{}{MOLPRO, MOLCAS, Gaussian, \href{https://rxnkin.usc.es/index.php/AutoMeKin}{\textcolor{unazul}{AutoMeKin}}, Inkscape, Git}
+
+\section{Languages (CEFR)}
+
+\cvitemwithcomment{Spanish}{Native speaker}{}
+\cvitemwithcomment{English}{Proficient user (C1)}{}
+\cvitemwithcomment{French}{Proficient user (C1)}{}
+\cvitemwithcomment{German}{Basic user (A1)}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+%
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%
+%\cvlistdoubleitem{Physical-Chemistry}{Mathematics}
+%\cvlistdoubleitem{Programming}{Free Software}
+%\cvlistdoubleitem{Theoretical research}{Music}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-3] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
