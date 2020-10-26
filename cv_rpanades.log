@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.8.29)  10 SEP 2020 18:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.12)  26 OCT 2020 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,29 +413,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip83
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 67.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 67.
+Package hyperref Info: Option `breaklinks' set `true' on input line 68.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 68.
 
 (./cv_rpanades.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 67
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 68
 .
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -462,14 +462,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 67.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 67.
+LaTeX Info: Redefining \showhyphens on input line 68.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -479,7 +479,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
-7.
+8.
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -497,15 +497,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(50.78763pt, 495.93262pt, 50.78763pt)
-* v-part:(T,H,B)=(57.46255pt, 701.39043pt, 86.19386pt)
+* h-part:(L,W,R)=(38.83948pt, 519.82892pt, 38.83948pt)
+* v-part:(T,H,B)=(43.94409pt, 735.18661pt, 65.91614pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=495.93262pt
-* \textheight=701.39043pt
-* \oddsidemargin=-21.48236pt
-* \evensidemargin=-21.48236pt
-* \topmargin=-51.80743pt
+* \textwidth=519.82892pt
+* \textheight=735.18661pt
+* \oddsidemargin=-33.43051pt
+* \evensidemargin=-33.43051pt
+* \topmargin=-65.3259pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -524,7 +524,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 68.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -536,97 +536,95 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count270
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./cv_rpanades.out) (./cv_rpanades.out)
 \@outlinefile=\write3
 \pagenumberwidth=\skip84
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 67.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 68.
 \makecvheadpicturebox=\box55
-<pictures/newlook2.jpg, id=41, 822.63908pt x 977.91634pt>
+<pictures/newlook2.jpg, id=45, 822.63908pt x 977.91634pt>
 File: pictures/newlook2.jpg Graphic file (type jpg)
 <use pictures/newlook2.jpg>
-Package pdftex.def Info: pictures/newlook2.jpg  used on input line 69.
+Package pdftex.def Info: pictures/newlook2.jpg  used on input line 70.
 (pdftex.def)             Requested size: 75.0pt x 89.14272pt.
 \makecvheadpicturewidth=\skip85
 \makecvheadnamebox=\box56
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-5.
+6.
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-5.
+6.
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-75.
+76.
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-75.
+76.
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 75.
+(Font)              <10> on input line 76.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 76.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 75.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
+(Font)              <5> on input line 76.
 
-Underfull \hbox (badness 1655) in paragraph at lines 92--92
+Underfull \hbox (badness 5133) in paragraph at lines 102--102
 []|\T1/lmss/m/n/10 (+20) Panadés-Barrueta, R. L., Rubayo-Soneira, J., Mon-nervi
 lle, M., Lar-regaray, P., Dayou, F.,
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 92--92
+Underfull \hbox (badness 4024) in paragraph at lines 102--102
 \T1/lmss/m/n/10 (+20) & Rivero-Santamaría, A. (2016). \T1/lmss/bx/n/10 Mean Po-
 ten-tial Phase Space The-ory study of the
  []
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 103.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 111.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-03.
+11.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<google-scholar.pdf, id=57, 368.94818pt x 372.53287pt>
+<google-scholar.pdf, id=65, 368.94818pt x 372.53287pt>
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 103.
+Package pdftex.def Info: google-scholar.pdf  used on input line 111.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 103.
+Package pdftex.def Info: google-scholar.pdf  used on input line 111.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 103.
+Package pdftex.def Info: google-scholar.pdf  used on input line 111.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
-<stacko.png, id=61, 301.125pt x 301.125pt>
+<stacko.png, id=69, 301.125pt x 301.125pt>
 File: stacko.png Graphic file (type png)
 <use stacko.png>
-Package pdftex.def Info: stacko.png  used on input line 103.
+Package pdftex.def Info: stacko.png  used on input line 111.
 (pdftex.def)             Requested size: 8.9966pt x 9.0pt.
 
 
@@ -639,50 +637,45 @@ This may cause the page layout to be inconsistent, however.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/newlook2.jpg> <
 ./google-scholar.pdf> <./stacko.png>]
-Underfull \hbox (badness 1308) in paragraph at lines 128--128
-[]|\T1/lmss/bx/n/10 Quantum Dy-nam-ics with the Multi-Configuration Time-Depend
-ent Hartree (MCTDH)
- []
-
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 145.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 155.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 184.
+Package pdftex.def Info: google-scholar.pdf  used on input line 194.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 184.
+Package pdftex.def Info: google-scholar.pdf  used on input line 194.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 184.
+Package pdftex.def Info: google-scholar.pdf  used on input line 194.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
 File: stacko.png Graphic file (type png)
 <use stacko.png>
-Package pdftex.def Info: stacko.png  used on input line 184.
+Package pdftex.def Info: stacko.png  used on input line 194.
 (pdftex.def)             Requested size: 8.9966pt x 9.0pt.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./cv_rpanades.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `cv_rpanades.out' has not changed.
-(rerunfilecheck)             Checksum: F7170FE81A30608EDC969C1E0735EAE6;1289.
+(rerunfilecheck)             Checksum: A1D727F40D6B4F5DA11EAD8B493F23DA;1452.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14208 strings out of 480478
- 216417 string characters out of 5905959
- 611440 words of memory out of 5000000
- 29942 multiletter control sequences out of 15000+600000
- 611341 words of font info for 82 fonts, out of 8000000 for 9000
+ 14206 strings out of 480478
+ 216380 string characters out of 5905958
+ 611104 words of memory out of 5000000
+ 29940 multiletter control sequences out of 15000+600000
+ 608557 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,16n,56p,777b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,15n,51p,777b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/
 fontawesometwo.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sh
@@ -696,14 +689,13 @@ onts/type1/public/lm/lmro10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
 ss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/te
 xmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/lm/lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/
-share/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf-dist/font
-s/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lms
-so10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/share/te
-xmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on cv_rpanades.pdf (2 pages, 4636563 bytes).
+share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/font
+s/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss
+o17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on cv_rpanades.pdf (2 pages, 4607092 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 12 named destinations out of 1000 (max. 500000)
- 27224 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 26720 words of extra memory for PDF output out of 29859 (max. 10000000)
 

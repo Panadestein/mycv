@@ -189,7 +189,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmsso17.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
@@ -210,18 +209,17 @@ INPUT /usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ts1-lmro10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 INPUT google-scholar.pdf
 INPUT ./google-scholar.pdf
@@ -234,6 +232,7 @@ INPUT stacko.png
 INPUT ./stacko.png
 INPUT ./stacko.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
@@ -266,8 +265,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsso9.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsso17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
