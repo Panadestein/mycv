@@ -1,20 +1,20 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.12)  29 NOV 2020 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.12.7)  18 DEC 2020 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **cv_rpanades.tex
 (./cv_rpanades.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-06-03> (./moderncv.cls
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-03> xparse <2020-03-03> (./moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter d
 ocument class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count167
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count177
 )
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -28,25 +28,25 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen134
-\ar@mcellbox=\box45
-\extrarowheight=\dimen135
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen138
+\ar@mcellbox=\box47
+\extrarowheight=\dimen139
 \NC@list=\toks15
 \extratabsurround=\skip47
 \backup@length=\skip48
-\ar@cellbox=\box46
+\ar@cellbox=\box48
 )
 \everycr=\toks16
 \minrowclearance=\skip49
 )
-\rownum=\count168
+\rownum=\count178
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -67,7 +67,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -109,14 +109,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -126,8 +126,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen136
-\Gin@req@width=\dimen137
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
@@ -144,42 +144,37 @@ s
 ) (./tweaklist.sty)
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count169
-\calc@Bcount=\count170
-\calc@Adimen=\dimen138
-\calc@Bdimen=\dimen139
+\calc@Acount=\count179
+\calc@Bcount=\count180
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
 \calc@Askip=\skip59
 \calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count171
+\calc@Ccount=\count181
 \calc@Cskip=\skip61
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-06-03 L3 programming layer (loader) 
+Package: expl3 2020-12-03 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count172
-\l__pdf_internal_box=\box47
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count182
+\l__pdf_internal_box=\box49
 ))
-Package: xparse 2020-05-15 L3 Experimental document command parser
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count173
-\g__xparse_grabber_int=\count174
-\l__xparse_m_args_int=\count175
-\l__xparse_v_nesting_int=\count176
-))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks18
-\MT@count=\count177
+\MT@count=\count183
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen140
+\MT@outer@kern=\dimen144
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count178
+\MT@listname@count=\count184
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
@@ -195,16 +190,16 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
 (./moderncvcollection.sty
 Package: moderncvcollection 2015/07/28 v2.0.0 moderncv collections
-\c@collection@iterator=\count179
+\c@collection@iterator=\count185
 ) (./moderncvcompatibility.sty
 Package: moderncvcompatibility 2015/07/28 v2.0.0 modern curriculum vitae and le
 tter compatibility patches
 )
-\c@collection@phones@count=\count180
-\c@collection@socials@count=\count181
-\c@cvcolumnscounter=\count182
-\c@cvcolumnsautowidthcounter=\count183
-\c@tmpiteratorcounter=\count184
+\c@collection@phones@count=\count186
+\c@collection@socials@count=\count187
+\c@cvcolumnscounter=\count188
+\c@cvcolumnsautowidthcounter=\count189
+\c@tmpiteratorcounter=\count190
 \cvcolumnsdummywidth=\skip63
 \cvcolumnswidth=\skip64
 \cvcolumnsautowidth=\skip65
@@ -226,8 +221,8 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 (./moderncvheadii.sty
 Package: moderncvheadii 2015/07/28 v2.0.0 modern curriculum vitae and letter he
 ader variant: 2
-\makeheaddetailsbox=\box48
-\makeheaddetailstempbox=\box49
+\makeheaddetailsbox=\box50
+\makeheaddetailstempbox=\box51
 \makeheaddetailswidth=\skip68
 \makeheaddetailsboxwidth=\skip69
 \quotewidth=\skip70
@@ -248,7 +243,7 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 \listitemcolumnwidth=\skip76
 \listdoubleitemcolumnwidth=\skip77
 \baseletterheight=\skip78
-\cvitemwithcommentbox=\box50
+\cvitemwithcommentbox=\box52
 \cvitemwithcommentskilllength=\skip79
 \cvitemwithcommentcommentlength=\skip80
 )
@@ -256,8 +251,8 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 Package: moderncvfooti 2015/07/28 v2.0.0 modern curriculum vitae and letter foo
 ter variant: 1
 \footwidth=\skip81
-\footbox=\box51
-\foottempbox=\box52
+\footbox=\box53
+\foottempbox=\box54
 \footboxwidth=\skip82
 )) (./moderncvcolorblue.sty
 Package: moderncvcolorblue 2015/07/28 v2.0.0 modern curriculum vitae and letter
@@ -270,7 +265,7 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 )
@@ -280,27 +275,27 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks21
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -329,11 +324,11 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen149
-\Hy@linkcounter=\count188
-\Hy@pagecounter=\count189
+\@linkdim=\dimen153
+\Hy@linkcounter=\count194
+\Hy@pagecounter=\count195
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
@@ -346,7 +341,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count190
+\Hy@SavedSpaceFactor=\count196
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
@@ -361,9 +356,9 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count191
+\c@Hy@tempcnt=\count197
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen150
+\XeTeXLinkMargin=\dimen154
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -372,9 +367,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count192
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\Fld@menulength=\count198
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -385,23 +380,27 @@ Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
 
-(/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
 )
-\Hy@abspage=\count193
-\c@Item=\count194
-\c@Hfootnote=\count195
+\Hy@abspage=\count199
+\c@Item=\count266
+\c@Hfootnote=\count267
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-(/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
 )
-\Fld@listcount=\count196
-\c@bookmark@seq@number=\count197
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -416,8 +415,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 71.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 71.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 71
+.
 
-(./cv_rpanades.aux)
+(/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./cv_rpanades.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
@@ -436,23 +439,24 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 71
-.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
+1.
+
+(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count198
-\scratchdimen=\dimen153
-\scratchbox=\box53
-\nofMPsegments=\count199
-\nofMParguments=\count266
+\scratchcounter=\count270
+\scratchdimen=\dimen157
+\scratchbox=\box55
+\nofMPsegments=\count271
+\nofMParguments=\count272
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count267
-\MPscratchDim=\dimen154
-\MPnumerator=\count268
-\makeMPintoPDFobject=\count269
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen158
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks23
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -474,17 +478,6 @@ LaTeX Info: Redefining \showhyphens on input line 71.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
-1.
-
-(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -524,7 +517,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring OFF on input line 71.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -535,7 +527,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count270
+\c@section@level=\count276
 )
 LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
@@ -546,14 +538,14 @@ LaTeX Info: Redefining \nameref on input line 71.
 \pagenumberwidth=\skip84
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
-\makecvheadpicturebox=\box55
+\makecvheadpicturebox=\box56
 <pictures/newlook2.jpg, id=45, 822.63908pt x 977.91634pt>
 File: pictures/newlook2.jpg Graphic file (type jpg)
 <use pictures/newlook2.jpg>
 Package pdftex.def Info: pictures/newlook2.jpg  used on input line 73.
 (pdftex.def)             Requested size: 75.0pt x 89.14272pt.
 \makecvheadpicturewidth=\skip85
-\makecvheadnamebox=\box56
+\makecvheadnamebox=\box57
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
@@ -563,6 +555,10 @@ LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 9.
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
 9.
@@ -589,65 +585,60 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 79.
 
-Underfull \hbox (badness 5133) in paragraph at lines 106--106
+Underfull \hbox (badness 5133) in paragraph at lines 105--105
 []|\T1/lmss/m/n/10 (+20) Panadés-Barrueta, R. L., Rubayo-Soneira, J., Mon-nervi
 lle, M., Lar-regaray, P., Dayou, F.,
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 106--106
+Underfull \hbox (badness 2970) in paragraph at lines 105--105
 \T1/lmss/m/n/10 (+20) and Rivero-Santamaría, A. (2016). \T1/lmss/bx/n/10 Mean P
 o-ten-tial Phase Space The-ory study of the
  []
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 115.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 114.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-15.
+14.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<rgate.png, id=64, 96.36pt x 96.36pt>
+<rgate.png, id=65, 96.36pt x 96.36pt>
 File: rgate.png Graphic file (type png)
 <use rgate.png>
-Package pdftex.def Info: rgate.png  used on input line 115.
+Package pdftex.def Info: rgate.png  used on input line 114.
 (pdftex.def)             Requested size: 8.9999pt x 9.0pt.
-<google-scholar.pdf, id=67, 368.94818pt x 372.53287pt>
+<google-scholar.pdf, id=68, 368.94818pt x 372.53287pt>
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 115.
+Package pdftex.def Info: google-scholar.pdf  used on input line 114.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
-<stacko.png, id=69, 301.125pt x 301.125pt>
+<stacko.png, id=70, 301.125pt x 301.125pt>
 File: stacko.png Graphic file (type png)
 <use stacko.png>
-Package pdftex.def Info: stacko.png  used on input line 115.
+Package pdftex.def Info: stacko.png  used on input line 114.
 (pdftex.def)             Requested size: 8.9966pt x 9.0pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/newlook2.jpg> <
 ./rgate.png> <./google-scholar.pdf> <./stacko.png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 159.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 158.
 File: rgate.png Graphic file (type png)
 <use rgate.png>
-Package pdftex.def Info: rgate.png  used on input line 198.
+Package pdftex.def Info: rgate.png  used on input line 197.
 (pdftex.def)             Requested size: 8.9999pt x 9.0pt.
 File: google-scholar.pdf Graphic file (type pdf)
 <use google-scholar.pdf>
-Package pdftex.def Info: google-scholar.pdf  used on input line 198.
+Package pdftex.def Info: google-scholar.pdf  used on input line 197.
 (pdftex.def)             Requested size: 8.31505pt x 8.39996pt.
 File: stacko.png Graphic file (type png)
 <use stacko.png>
-Package pdftex.def Info: stacko.png  used on input line 198.
+Package pdftex.def Info: stacko.png  used on input line 197.
 (pdftex.def)             Requested size: 8.9966pt x 9.0pt.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
- (./cv_rpanades.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+ [2] (./cv_rpanades.aux)
 Package rerunfilecheck Info: File `cv_rpanades.out' has not changed.
 (rerunfilecheck)             Checksum: A1D727F40D6B4F5DA11EAD8B493F23DA;1452.
 
@@ -656,13 +647,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14209 strings out of 480478
- 216365 string characters out of 5905958
- 612173 words of memory out of 5000000
- 29944 multiletter control sequences out of 15000+600000
- 605427 words of font info for 79 fonts, out of 8000000 for 9000
+ 13807 strings out of 479383
+ 206080 string characters out of 5875830
+ 649759 words of memory out of 5000000
+ 30638 multiletter control sequences out of 15000+600000
+ 476353 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,50p,777b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,15n,86p,623b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/
 fontawesometwo.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sh
@@ -679,10 +670,10 @@ blic/lm/lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/
 share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/font
 s/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss
 o17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on cv_rpanades.pdf (2 pages, 4614576 bytes).
+Output written on cv_rpanades.pdf (2 pages, 4614922 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 178 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  13 named destinations out of 1000 (max. 500000)
- 26213 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 24165 words of extra memory for PDF output out of 24883 (max. 10000000)
 
