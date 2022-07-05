@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cv_rpanades.aux
+The style file: unsrt.bst
+Database file #1: Bibliography.bib
+Warning--string name "jcp" is undefined
+--line 14329 of file Bibliography.bib
+Warning--empty title in guan2017identification
+Warning--empty title in monge2010light
+Warning--empty title in kopec2019vdw
+Warning--empty title in panades2021
+Warning--empty title in panades2019specific
+Warning--empty title in pel13:014108
+Warning--empty journal in pel13:014108
+Warning--empty title in panades2020sop
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            495 strings with 4179 characters,
+and the built_in function-call counts, 1678 in all, are:
+= -- 140
+> -- 50
+< -- 0
++ -- 22
+- -- 13
+* -- 130
+:= -- 271
+add.period$ -- 20
+call.type$ -- 9
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 79
+empty$ -- 186
+format.name$ -- 13
+if$ -- 359
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 41
+num.names$ -- 9
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 26
+stack$ -- 0
+substring$ -- 119
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 17
+width$ -- 10
+write$ -- 85
+(There were 9 warnings)
