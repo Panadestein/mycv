@@ -8,7 +8,6 @@
 \usepackage[scale=0.82]{geometry} % Reduce document margins
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist 
-%\usepackage{fontawesome}
 \usepackage{fancyhdr}
 \usepackage{ragged2e}
 \usepackage{mhchem}
@@ -49,6 +48,8 @@
 \homepage{panadestein.github.io} 
 \photo[75pt][0.3pt]{Figures/professional_rpanades.jpg}
 
+%----------------------------------------------------------------------------------------
+% CV content
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -138,6 +139,7 @@ $Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)$ react
 \cventry{2022--2023}{Johannes Günzl}{Master thesis}{}{Arbeitsgruppe für Theoretische Chemie}{TU Dresden}
 
 \section{Reviewing activities}
+
 \cvitem{}{List of Journals I have contributed as a reviewer.}
 \cventry{2022}{Physical Review B}{}{(\href{https://journals.aps.org/prb/}{\textcolor{unazul}{PRB}})}{}{}
 
@@ -159,7 +161,6 @@ $Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)$ react
 \cvitem{Software}{\href{https://fhi-aims.org/who-we-are}{\textcolor{unazul}{FHI-aims}} (Developed low-scaling massively parallel GW algorithms), \href{https://www.pci.uni-heidelberg.de/tc/usr/mctdh/ref.html}{\textcolor{unazul}{MCTDH}} (Developed the SOP-FBR and SRPTucker packages), \href{https://trex-coe.eu/trex-quantum-chemistry-codes/champ}{\textcolor{unazul}{CHAMP}} (Developed massively parallel QMC algorithms), \href{https://rxnkin.usc.es/index.php/AutoMeKin}{\textcolor{unazul}{AutoMeKin}}, MOPAC, Quantum package, MOLPRO, MOLCAS, Gaussian, Wolfram Mathematica, \href{https://panadestein.github.io/emacsd/}{\textcolor{unazul}{Emacs}}, Git, Inkscape, LibreOffice}
 \cvitem{Numerical methods}{Tensor decomposition, Optimization Algorithms, Quantum Monte Carlo, low-scaling GW algorithms}
 \cvitem{OS}{(\href{https://github.com/Panadestein/nixos-config.git}{\textcolor{unazul}{NixOS}}) Linux, UNIX}
-
 
 \section{Languages (CEFR)}
 
@@ -237,13 +238,45 @@ Letter's body here
 \textbf{Abstract of the Doctoral Dissertation}
 \end{center}
 
-My PhD aims at simulating full quantum mechanically (nuclei and electrons) the processes of adsorption and photoreactivity of NO\(_2\) adsorbed on soot particles (modeled as large Polycyclic Aromatic Hydrocarbons, PAHs) in atmospheric conditions. A detailed description of these processes is necessary to understand the differential day-nighttime behavior of the production of HONO~\cite{guan2017identification,monge2010light}, which is a precursor of the hydroxyl radical (OH)~\cite{holloway2015atmospheric}. In particular, the specific mechanism of the soot-mediated interconversion between NO\(_2\) and HONO is to date not fully understood. Due to  its particular relevance in this context, we have chosen the Pyrene-NO\(_2\) as our model system~\cite{guan2017identification}.\\
+My PhD aims at simulating full quantum mechanically (nuclei and electrons) the processes of adsorption and photoreactivity
+of NO\(_2\) adsorbed on soot particles (modeled as large Polycyclic Aromatic Hydrocarbons, PAHs) in atmospheric conditions.
+A detailed description of these processes is necessary to understand the differential day-nighttime behavior of
+the production of HONO~\cite{guan2017identification,monge2010light}, which is a precursor of the hydroxyl radical
+(OH)~\cite{holloway2015atmospheric}. In particular, the specific mechanism of the soot-mediated interconversion
+between NO\(_2\) and HONO is to date not fully understood. Due to  its particular relevance in this context,
+we have chosen the Pyrene-NO\(_2\) as our model system~\cite{guan2017identification}.\\
 
-The first stage in this study has consisted of the determination of the stable configurations (transition states and minima) of the Pyrene-NO\(_2\) system. To this end, we have used the recently developed van der Waals Transition State Search using Chemical Dynamics Simulations (vdW-TSSCDS) method~\cite{kopec2019vdw}, the generalization of the TSSCDS algorithm developed in our group. In this way, the present work represents the first application of vdW-TSSCDS to a large system (81D)~\cite{panades2021}. Starting from a set of judiciously chosen input geometries, the aforementioned method permits the characterization of the topography of an intermolecular Potential Energy Surface (PES), or in other words the determination of the most stable conformations of the system, in a fully automated and efficient manner. \\
+The first stage in this study has consisted of the determination of the stable configurations (transition states and minima)
+of the Pyrene-NO\(_2\) system. To this end, we have used the recently developed van der Waals Transition State Search 
+using Chemical Dynamics Simulations (vdW-TSSCDS) method~\cite{kopec2019vdw}, the generalization of the TSSCDS algorithm 
+developed in our group. In this way, the present work represents the first application of vdW-TSSCDS to a large system 
+(81D)~\cite{panades2021}. Starting from a set of judiciously chosen input geometries, the aforementioned method permits
+the characterization of the topography of an intermolecular Potential Energy Surface (PES), or in other words the determination 
+of the most stable conformations of the system, in a fully automated and efficient manner. \\
 
-The gathered topographical information has been used to obtain a global description (fit) of the interaction potential, necessary for the dynamical elucidation of the intermolecular interaction (physisorption), spectroscopic properties, and reactivity of the adsorbed species. To achieve this last goal, we have developed two different methodologies together with the corresponding software packages. The first one of them is the Specific Reaction Parameter Multigrid POTFIT (SRP-MGPF) algorithm, which is implemented in the SRPTucker package~\cite{panades2019specific}. This method computes chemically accurate (intermolecular) PESs through the reparametrization of semiempirical methods, which are subsequently tensor decomposed into Tucker form using MGPF~\cite{pel13:014108}. This software has been successfully interfaced with the Heidelberg version of the Multi-Configuration Time-Dependent Hartree (MCTDH) package~\cite{wor00:v81}. The second method allows for obtaining the PES directly in the mathematical form required by MCTDH, thence its name Sum-Of-Products Finite-Basis-Representation (SOP-FBR)~\cite{panades2020sop}. SOP-FBR constitutes an alternative approach to Neural Networks (NN)-fitting methods. The idea behind it is simple: from the basis of a low-rank Tucker expansion on the grid, we replace the grid-based basis functions by an expansion in terms of orthogonal polynomials. As in the previous method, smooth integration with MCTDH has been ensured. Both methods have been successfully benchmarked with a number of reference problems, namely: the Hénon-Heiles Hamiltonian, a global H\(_2\)O PES, and the HONO isomerization PES (6D). \\
+The gathered topographical information has been used to obtain a global description (fit) of the interaction potential, 
+necessary for the dynamical elucidation of the intermolecular interaction (physisorption), spectroscopic properties, 
+and reactivity of the adsorbed species. To achieve this last goal, we have developed two different methodologies together 
+with the corresponding software packages. The first one of them is the Specific Reaction Parameter Multigrid POTFIT (SRP-MGPF) 
+algorithm, which is implemented in the SRPTucker package~\cite{panades2019specific}. This method computes chemically accurate 
+(intermolecular) PESs through the reparametrization of semiempirical methods, which are subsequently tensor decomposed 
+into Tucker form using MGPF~\cite{pel13:014108}. This software has been successfully interfaced with the Heidelberg version 
+of the Multi-Configuration Time-Dependent Hartree (MCTDH) package~\cite{wor00:v81}. The second method allows for obtaining the 
+PES directly in the mathematical form required by MCTDH, thence its name Sum-Of-Products Finite-Basis-Representation 
+(SOP-FBR)~\cite{panades2020sop}. SOP-FBR constitutes an alternative approach to Neural Networks (NN)-fitting methods. 
+The idea behind it is simple: from the basis of a low-rank Tucker expansion on the grid, we replace the grid-based basis 
+functions by an expansion in terms of orthogonal polynomials. As in the previous method, smooth integration with MCTDH has 
+been ensured. Both methods have been successfully benchmarked with a number of reference problems, namely: the Hénon-Heiles 
+Hamiltonian, a global H\(_2\)O PES, and the HONO isomerization PES (6D). \\
 
-With the aid of all the above-mentioned methods, we have tackled the computation of the global PES of the Pyrene-NO\(_2\) system. Suitable coordinate transformation routines have been developed to map the Cartesian coordinates to internal coordinates. In the physisorption domain, the evidence collected with vdW-TSSCDS has suggested that the geometry of the NO\(_2\) molecule is almost not perturbed in the stationary points with respect to the isolated molecule. This fact has enabled its treatment in a rigid monomer fashion (6D). The PESs will be used to obtain the electronic ground state (GS) and corresponding Zero-Point Energy (ZPE) of the system  with MCTDH\@. The ZPE can offer an accurate estimate of the adsorption energy of the NO\(_2\) molecule over the Pyrene. Additionally, the electronic absorption spectrum of the system will be obtained by computing the sum (weighted by the GS distribution) of the individual vertical excitations of each stationary point.\\
+With the aid of all the above-mentioned methods, we have tackled the computation of the global PES of the Pyrene-NO\(_2\) system. 
+Suitable coordinate transformation routines have been developed to map the Cartesian coordinates to internal coordinates. 
+In the physisorption domain, the evidence collected with vdW-TSSCDS has suggested that the geometry of the NO\(_2\) molecule 
+is almost not perturbed in the stationary points with respect to the isolated molecule. This fact has enabled its treatment 
+in a rigid monomer fashion (6D). The PESs will be used to obtain the electronic ground state (GS) and corresponding 
+Zero-Point Energy (ZPE) of the system  with MCTDH\@. The ZPE can offer an accurate estimate of the adsorption energy 
+of the NO\(_2\) molecule over the Pyrene. Additionally, the electronic absorption spectrum of the system will be obtained 
+by computing the sum (weighted by the GS distribution) of the individual vertical excitations of each stationary point.\\
 
 \bibliographystyle{unsrt}
 \bibliography{refs}
