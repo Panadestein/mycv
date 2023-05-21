@@ -1,24 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.11 (19/6/14)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same 
-% directory as this .tex file. These files provide the resume style and themes 
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -30,7 +9,7 @@
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.80]{geometry} % Reduce document margins
+\usepackage[scale=0.82]{geometry} % Reduce document margins
 \usepackage{fontawesome}
 \usepackage{fancyhdr}
 \usepackage{ragged2e}
@@ -47,14 +26,14 @@
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 \definecolor{unazul}{HTML}{539bd7}
-\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
-\newcommand*{\rgatesocialsymbol}{\includegraphics[height=.75\baselineskip]{rgate}}
-\newcommand*{\stackovsocialsymbol}{\includegraphics[height=.75\baselineskip]{stacko}}
+\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{Figures/gscholar}}
+\newcommand*{\rgatesocialsymbol}{\includegraphics[height=.75\baselineskip]{Figures/rgate}}
+\newcommand*{\stackovsocialsymbol}{\includegraphics[height=.75\baselineskip]{Figures/stacko}}
 
 \makeatletter
 \renewcommand*{\makeletterclosing}{
   \@closing\\[3em]%
-  \includegraphics[scale=.8]{pictures/signaturepanades.png}\\% Insert signature
+  \includegraphics[scale=.8]{Figures/signature_panades.png}\\% Insert signature
   {Ramón L. Panad\'es-Barrueta}%
   \ifthenelse{\isundefined{\@enclosure}}{}{%
     \\%
@@ -84,7 +63,7 @@
 %\email{rpana92@gmail.com}
 \homepage{panadestein.github.io} 
 %\extrainfo{additional information}
-\photo[75pt][0.3pt]{pictures/newlook_test_smaller.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\photo[75pt][0.3pt]{Figures/professional_rpanades.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
@@ -97,7 +76,7 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\vspace{6.0cm}
+\vspace{7.0cm}
 
 \section{Professional experience}
 
@@ -109,6 +88,7 @@
 \cvitem{}{Project: Targeting Real chemical accuracy at the EXascale (\href{https://trex-coe.eu/}{\textcolor{unazul}{TREX}}). European HPC Centre of Excellence (\href{https://www.hpccoe.eu/index.php/trex-coe/}{\textcolor{unazul}{CoE}})}
 \cvitem{}{This European CoE aims at developing open-source high-performance quantum chemistry software tailored to the emerging exascale architectures. As a member of Prof. Claudia Filippi's group, I contributed to the Cornell-Holland Ab-initio Materials Package (CHAMP). During my time in the project, I have employed innovative programming techniques like the Implicit Reference to Parameters method (IRP).}
 
+\clearpage
 \section{Education}
 
 \cventry{23.10.2020 \\ 01.10.2017}{PhD in Physics}{\href{www.univ-lille.fr}{\textcolor{unazul}{University of Lille}}, Laboratoire de Physique des Lasers, Atomes et Molécules (\href{phlam.univ-lille.fr}{\textcolor{unazul}{PhLAM}})}{France}{}{}
@@ -130,25 +110,36 @@ $Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)$ react
 
 \section{Publications}
 
-\cvitem{2021}{Panadés-Barrueta, R. L., Shepard , S. and Filippi, C. \textbf{State specific optimization of double excitations in quantum Monte Carlo}, \textcolor{unazul}{In preparation.}}
-\cvitem{2020}{Panadés-Barrueta, R. L. and Peláez, D. (2020). \textbf{Low-Rank Sum-of-Products Finite-Basis-Representation (SOP-FBR) of Potential Energy Surfaces}, \href{https://doi.org/10.1063/5.0027143}{\textcolor{unazul}{Journal of Chemical Physics, \textbf{153}, 234110.}}}
+\cvitem{2023}{Nadoveza, N., Panadés-Barrueta, R. L., Shi, L., Gatti, F., and Peláez D. (2023) \textbf{Analytical high-dimensional operators in canonical polyadic finite basis representation (CP-FBR)}, \href{https://doi.org/10.1063/5.0139224}{\textcolor{unazul}{The Journal of Chemical Physics, 158, 114109}}}
+\cvitem{2022}{Shepard, S., Panadés-Barrueta, R. L., Moroni, S., Scemama A., and Filippi, C. (2022) \textbf{Double excitation energies from quantum Monte Carlo using state-specific energy optimization}, \href{https://doi.org/10.1021/acs.jctc.2c00769}{\textcolor{unazul}{Journal of Chemical Theory and Computation, 18, 11, 6722–6731}} (\href{https://arxiv.org/abs/2207.12160}{\textcolor{unazul}{arXiv:2207.12160}})}
+\cvitem{2020}{Panadés-Barrueta, R. L. and Peláez, D. (2020). \textbf{Low-Rank Sum-of-Products Finite-Basis-Representation (SOP-FBR) of Potential Energy Surfaces}, \href{https://doi.org/10.1063/5.0027143}{\textcolor{unazul}{The Journal of Chemical Physics, \textbf{153}, 234110.}}}
 \cvitem{2019}{Panadés-Barrueta, R. L., Martínez-Núñez, E., \& Peláez, D. (2019). \textbf{Specific Reaction Parameter Multigrid POTFIT (SRP-MGPF): Automatic Generation of Sum-of-Products Form Potential Energy Surfaces for Quantum Dynamical Calculations}, \href{https://doi.org/10.3389/fchem.2019.00576}{\textcolor{unazul}{Frontiers in Chemistry, \textbf{7}, 576.}} Included in the book \href{https://www.frontiersin.org/research-topics/9088/application-of-optimization-algorithms-in-chemistry}{\textcolor{unazul}{Application of Optimization Algorithms in Chemistry}}}
 \cvitem{2016}{Panad\'es-Barrueta, R. L., Rubayo-Soneira, J., Monnerville, M., Larregaray, P., Dayou, F., and Rivero-Santamar\'ia, A. (2016). \textbf{Mean Potential Phase Space Theory study of the $\mathbf{Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)}$ reaction}, \href{http://www.revistacubanadefisica.org/index.php/rcf/article/view/65}{\textcolor{unazul}{Revista Cubana de Física, \textbf{33(2)}, 102-117.}}}
 
 
 \section{Seminars and conferences}
 
-\cventry{December 2021}{An overview of GW and its applications to core level spectroscopy}{}{}{}{\href{https://panadestein.github.io/gw_talk/sem_rpanades.html}{\textcolor{unazul}{Group seminar}} \\ TU Dresden, Germany}
+\cventry{March 2023}{Accelerating core-level GW calculations using the CD approach with analytic continuation of W}{Contributed talk}{}{}{\href{https://www.dpg-verhandlungen.de/year/2023/conference/skm/part/o/session/35}{\textcolor{unazul}{DPG-Frühjahrstagung der Sektion Kondensierte Materie}} \\ Dresden, Germany}
 
-\cventry{November 2020}{A \textit{gentle} introduction to MCTDH}{}{}{}{\href{https://nbviewer.org/github/Panadestein/mctdh_talk/blob/main/mctdh_intro.pdf}{\textcolor{unazul}{Group seminar}} \\ University of Twente, Netherlands}
+\cventry{March 2023}{Accelerating core-level GW calculations by combining the contour deformation with the analytic continuation of W}{Poster}{}{}{\href{https://www.lorentzcenter.nl/accelerating-theoretical-spectroscopy-for-complex-multiscale-materials.html}{\textcolor{unazul}{Accelerating theoretical spectroscopy for complex multiscale materials}} \\ Leiden, Netherlands}
+
+\cventry{November 2022}{Accelerating core-level GW calculations by combining the contour deformation with the analytic continuation of W}{Poster}{}{}{\href{https://www.cecam.org/workshop-details/1138}{\textcolor{unazul}{Green's function methods: the next generation 5}} \\ Toulouse, France}
+
+\cventry{August 2022}{Accelerating core-level GW calculations by combining the contour deformation with the analytic continuation of W}{Poster}{}{}{\href{https://panadestein.github.io/poster_psik/index.html}{\textcolor{unazul}{Psi-k 2022 Conference}} \\ Lausanne, Switzerland}
+
+\cventry{December 2021}{An overview of GW and its applications to core level spectroscopy}{Seminar talk}{}{}{\href{https://panadestein.github.io/gw_talk/sem_rpanades.html}{\textcolor{unazul}{Group seminar}} \\ TU Dresden, Germany}
+
+\cventry{November 2020}{A \textit{gentle} introduction to MCTDH}{Seminar talk}{}{}{\href{https://nbviewer.org/github/Panadestein/mctdh_talk/blob/main/mctdh_intro.pdf}{\textcolor{unazul}{Group seminar}} \\ University of Twente, Netherlands}
 
 \cventry{August 2020}{On the automatic computation of global (intermolecular) potential energy surfaces for quantum dynamical simulations}{Invited Speaker}{}{}{\href{http://spig2020.ipb.ac.rs/invited.html}{\textcolor{unazul}{Symposium and Summer School on Physics of Ionized Gases}} \\ Šabac, Serbia}
 \cventry{February 2020}{Automatic computation of global (intermolecular) potential energy surfaces for
  (non) covalently bound systems}{Contributed Talk}{}{}{\href{https://jctmsifn.sciencesconf.org/program/details}{\textcolor{unazul}{Journée Chimie Théorique et Simulation Moléculaire IdF/Nord}} \\ Chimie ParisTech. Paris, France}
-\cventry{April 2019}{Automatic computation of potential energy surfaces for covalently bound systems}{Seminar}{}{}{Laboratoire de Chimie Physique - Matière et Rayonnement (LCPMR). Paris, France}
+\cventry{April 2019}{Automatic computation of potential energy surfaces for covalently bound systems}{Seminar talk}{}{}{Laboratoire de Chimie Physique - Matière et Rayonnement (LCPMR). Paris, France}
 
 %\newgeometry{top=1.5cm}
 \section{Teaching experience}
+
+\cventry{2022}{Modern Topics in Theoretical and Computational Chemistry}{\href{https://golzegroup.org/htdocs/wp-content/uploads/exercises_m19/}{\textcolor{unazul}{course website}}}{}{}{\textbf{Place:} TU Dresden, Germany \space\space\space   \textbf{No. hours:} 4 \space\space\space  \textbf{Language:} English}
 
 \cventry{2021}{Qualification for a position as an assistant professor in a French University}{}{}{}{\textbf{Sections:} 30 and 31 of the \href{https://www.conseil-national-des-universites.fr/cnu/}{\textcolor{unazul}{CNU}} \space\space\space  \textbf{Qualification Numbers:} 21230359242 and 21231359242}
 \cventry{2018--2019}{Laboratory of Thermodynamics}{}{}{}{\textbf{Place:} IUT A de Lille (University of Lille), France \space\space\space   \textbf{No. hours:} 64 \space\space\space  \textbf{Language:} French}
@@ -161,25 +152,28 @@ $Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)$ react
 
 \section{Honors and Awards}
 
+\cvitem{2022}{\textbf{Poster Commendation Prize} Psi-k Conference
+  (\href{https://www.psik2022.net/talksposters-guidelines\#h.s39zr9eq17f7}{\textcolor{unazul}{Psi-k 22}}).
+  Lausanne, Switzerland.}
 \cvitem{2019}{\textbf{Best Poster Prize} 10\textsuperscript{th} International Meeting on Atomic and Molecular Physics and Chemistry (IMAMPC). Madrid, Spain.}
 \cvitem{2018}{\textbf{Best Poster Prize} 6\textsuperscript{th} High Dimensional Quantum Dynamics Workshop (HDQD). Lille, France.}
 \cvitem{2018}{\textbf{PCCP Best Poster Prize} 9\textsuperscript{th} International Meeting on Atomic and Molecular Physics and Chemistry (\href{https://phlam.univ-lille.fr/detail-actu/ramon-panades-barrueta-le-prix-poster-du-journal-pccp-du-congres-imampc/}{\textcolor{unazul}{IMAMPC}}). Berlin, Germany.}
 \cvitem{2015}{\textbf{ICPC Contestant} Caribbean Finals of the International Collegiate Programming Contest (ACM-ICPC). Havana, Cuba}
 \cvitem{2010}{\textbf{IChO Contestant} Captain of the Cuba Team in the 42\textsuperscript{nd} International Chemistry Olympiad (\href{https://www.icho2010.org/en/results.html}{\textcolor{unazul}{IChO 2010}}). Tokyo, Japan}
 
-%\clearpage
 
 \section{Competitive research grants and fellowships}
 
+\cventry{Feb. 2023}{Computer time grant of 12 Mi CPU hours}{}{}{}{Awarded by: Paderborn Center for Parallel Computing (\href{https://pc2.uni-paderborn.de/}{\textcolor{unazul}{PC2}}) \\ Project: Accurate, Exascale-Ready Methods for Theoretical Core-Level Spectroscopy of Complex Materials. }
+\cventry{Dec. 2022}{Travel Award of the Graduate Academy}{}{}{}{Awarded by: TU Dresden \href{https://tu-dresden.de/ga}{\textcolor{unazul}{Graduiertenakademie}} \\ Comment: Financed participation on the CECAM workshop \href{https://www.cecam.org/workshop-details/1138}{\textcolor{unazul}{Green's function methods: the next generation 5}} }
 \cventry{Oct.-Dec. 2019}{Research Grant German Academic Exchange Service (DAAD)}{}{}{}{Awarded by: Deutscher Akademischer Austausch Dienst \\ Place: Universität Heidelberg, \href{https://www.pci.uni-heidelberg.de/cms/index.html}{\textcolor{unazul}{Theoretical Chemistry Group}} \\ Supervisor: Prof. Dr. Oriol VENDRELL}
 \cventry{2016--2017}{Labex CaPPA Fellowship}{}{}{}{Awarded by: Laboratoire d'excellence \href{http://www.labex-cappa.fr/master-atmospheric-environment/fellowships}{\textcolor{unazul}{CaPPA}} \\ Place: University of Lille }
 
-\clearpage
 
 \section{Research training and attended workshops}
 
 \cventry{June 2022}{NOMAD WP2 Hackathon}{Academic Centre of the University of Latvia. Riga, Latvia}{}{}{}
-\cventry{July 2021}{Stochastic Methods in Electronic Structure Theory}{Telluride Science Research Center (Virtual Workshop)}{}{}{}
+\cventry{July 2021}{Stochastic Methods in Electronic Structure Theory}{Telluride Science Research Center (\href{https://meetings.telluridescience.org/meetings/workshop-details?wid=874}{\textcolor{unazul}{Virtual Workshop}})}{}{}{}
 \cventry{January 2020}{First general assembly of the GDR NBODY: N-body quantum problem in chemistry and physics}{Universit\'e de Lille, France}{}{}{}
 \cventry{August 2019}{School EMIE-UP. Multiscale Dynamics in Molecular Systems}{École de Physique des Houches. Haute-Savoie, France}{}{}{}
 \cventry{June 2019}{3\textsuperscript{rd} Mini-school on mathematics for theoretical chemistry and physics}{Sorbonne Université, Pierre et Marie Curie. Paris, France}{}{}{}
@@ -193,12 +187,13 @@ $Si({}^{3}P) + OH(X^{2}\Pi) \rightarrow SiO(X^{1}\Sigma^{+}) + H({}^{2}S)$ react
 %\cventry{2016--present}{Electronic Structure and Nuclear Quantum Dynamics}{\textit{Universit\'e  de Lille}}{France}{}{Acquired Computational Chemistry skills and performed development of methodologies, mainly applied to systems with atmospheric and astrophysical interest}
 %\cventry{2011--Present}{GNU/Linux systems}{}{}{}{Involvement in the GNU/Linux community as a part of the professional work, in particular with the Arch Linux distribution}
 
+\clearpage
 \section{Computer skills}
 
 %\faicon{github}
 \cvitem{OS}{(\href{https://github.com/Panadestein/nixos-config.git}{\textcolor{unazul}{NixOS}}) Linux, UNIX}
 \cvitem{Languages}{Fortran and C (HPC optimization and parallelization with ScaLAPACK), Python (scientific computing libraries), Julia, Wolfram Language, Bash, Lisp, \LaTeX, HTML/CSS}
-\cvitem{Software}{\href{https://fhi-aims.org/}{\textcolor{unazul}{FHI-aims}} (low-scaling massively parallel GW algorithms), \href{https://www.pci.uni-heidelberg.de/tc/usr/mctdh/ref.html}{\textcolor{unazul}{MCTDH}} (Developed the SOP-FBR and SRPTucker packages), \href{https://www.utwente.nl/en/tnw/ccp/research/CHAMP.html}{\textcolor{unazul}{CHAMP}} (massively parallel QMC algorithms), \href{https://rxnkin.usc.es/index.php/AutoMeKin}{\textcolor{unazul}{AutoMeKin}}, MOPAC, Quantum package, MOLPRO, MOLCAS, Gaussian, Wolfram Mathematica, \href{https://panadestein.github.io/emacsd/}{\textcolor{unazul}{Emacs}}, Git, Inkscape, Libreoffice}
+\cvitem{Software}{\href{https://fhi-aims.org/who-we-are}{\textcolor{unazul}{FHI-aims}} (low-scaling massively parallel GW algorithms), \href{https://www.pci.uni-heidelberg.de/tc/usr/mctdh/ref.html}{\textcolor{unazul}{MCTDH}} (Developed the SOP-FBR and SRPTucker packages), \href{https://trex-coe.eu/trex-quantum-chemistry-codes/champ}{\textcolor{unazul}{CHAMP}} (massively parallel QMC algorithms), \href{https://rxnkin.usc.es/index.php/AutoMeKin}{\textcolor{unazul}{AutoMeKin}}, MOPAC, Quantum package, MOLPRO, MOLCAS, Gaussian, Wolfram Mathematica, \href{https://panadestein.github.io/emacsd/}{\textcolor{unazul}{Emacs}}, Git, Inkscape, Libreoffice}
 \cvitem{Numerical methods}{Tensor decomposition, Optimization Algorithms, Quantum Monte Carlo, low-scaling GW algorithms}
 
 
