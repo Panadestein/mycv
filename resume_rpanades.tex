@@ -17,7 +17,7 @@
 \usepackage{titlesec}
 \hypersetup{colorlinks, urlcolor=black, linkcolor=black}
 \usepackage{xcolor}
-\definecolor{unazul}{HTML}{539bd7}
+\definecolor{unazul}{HTML}{337ab7}
 
 % Geometry
 \geometry{hmargin=1.75cm, vmargin=2.5cm}
@@ -30,7 +30,7 @@
 
 % Style
 \pagestyle{empty}
-\titleformat{\section}{\scshape\LARGE\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\color{unazul}\scshape\LARGE\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{\bigskipamount}{\smallskipamount}
 \newcommand{\heading}[2]{\centering{\sffamily\Huge #1}\\\smallskip{\large{#2}}}
 \newcommand{\entry}[4]{{{\textbf{#1}}} \hfill #3 \\ #2 \hfill #4}
@@ -46,15 +46,15 @@
 %	Contact information
 %----------------------------------------------------------------------------------------
 
-\heading{John Doe}{Lorem ipsum dolor sit amet, \\ consectetur adipiscing elit.}
+\heading{Ramón L. Panadés Barrueta}{Computational Scientist}
 
-\switchcolumn
+\switchcolumn{}
 
 \vspace{0.01\textheight}
 \begin{supertabular}{ll}
-  \footnotesize\faPhone & +33 1 23 45 67 89 \\
-  \footnotesize\faEnvelope & \href{mailto:john.doe@gmail.com}{john.doe@gmail.com} \\
-  \footnotesize\faLinkedin & \href{https://www.linkedin.com/in/johndoe}{linkedin.com/in/johndoe} \\
+  \textcolor{unazul}{\footnotesize\faGlobe} & \href{https://panadestein.github.io}{panadestein.github.io} \\
+  \textcolor{unazul}{\footnotesize\faGithub} & \href{https://github.com/Panadestein}{github.com/Panadestein} \\
+  \textcolor{unazul}{\footnotesize\faLinkedin} & \href{https://www.linkedin.com/in/rpanades}{linkedin.com/in/rpanades} \\
 \end{supertabular}
 
 \bigskip
