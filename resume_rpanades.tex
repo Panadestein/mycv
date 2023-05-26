@@ -1,8 +1,8 @@
 \documentclass[12pt]{article}
 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	Packages
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 \usepackage[english]{babel}
 \usepackage{cmbright}
 \usepackage{enumitem}
@@ -20,7 +20,7 @@
 \definecolor{unazul}{HTML}{337ab7}
 
 % Geometry
-\geometry{hmargin=1.75cm, vmargin=2.5cm}
+\geometry{hmargin=1.75cm, vmargin=2.0cm}
 \columnratio{0.65, 0.35}
 \setlength\columnsep{0.05\textwidth}
 \setlength\parindent{0pt}
@@ -32,116 +32,124 @@
 \pagestyle{empty}
 \titleformat{\section}{\color{unazul}\scshape\LARGE\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{\bigskipamount}{\smallskipamount}
-\newcommand{\heading}[2]{\centering{\sffamily\Huge #1}\\\smallskip{\large{#2}}}
+\newcommand{\heading}[2]{\centering{\sffamily\Huge #1}\\\smallskip{\parbox{\linewidth}{\large{#2}}}}
 \newcommand{\entry}[4]{{{\textbf{#1}}} \hfill #3 \\ #2 \hfill #4}
 \newcommand{\tableentry}[3]{\textsc{#1} & #2\expandafter\ifstrequal\expandafter{#3}{}{\\}{\\[6pt]}}
 
-\begin{document}
+  \begin{document}
 
-\vspace*{\fill}
+  \vspace*{\fill}
 
-\begin{paracol}{2}
+  \begin{paracol}{2}
 
-%----------------------------------------------------------------------------------------
-%	Contact information
-%----------------------------------------------------------------------------------------
+    % ----------------------------------------------------------------------------------------
+    %	Contact information
+    % ----------------------------------------------------------------------------------------
 
-\heading{Ramón L. Panadés Barrueta}{Computational Scientist}
+    \heading{Ramón L. Panadés Barrueta}{Physicist with robust background in software engineering.
+      Proven expertise in numerical analysis. Developer of high performance,
+      massively parallel applications for both CPUs and accelerators.}
 
-\switchcolumn{}
+    \switchcolumn{}
 
-\vspace{0.01\textheight}
-\begin{supertabular}{ll}
-  \textcolor{unazul}{\footnotesize\faGlobe} & \href{https://panadestein.github.io}{panadestein.github.io} \\
-  \textcolor{unazul}{\footnotesize\faGithub} & \href{https://github.com/Panadestein}{github.com/Panadestein} \\
-  \textcolor{unazul}{\footnotesize\faLinkedin} & \href{https://www.linkedin.com/in/rpanades}{linkedin.com/in/rpanades} \\
-\end{supertabular}
+    \vspace{0.04\textheight}
+    \begin{supertabular}{ll}
+      \textcolor{unazul}{\footnotesize\faEnvelope} & \href{mailto:rpana92@gmail.com}{rpana92@gmail.com} \\
+      \textcolor{unazul}{\footnotesize\faGlobe} &
+      \href{https://panadestein.github.io}{panadestein.github.io} \\
+      \textcolor{unazul}{\footnotesize\faGithub} &
+      \href{https://github.com/Panadestein}{github.com/Panadestein} \\
+      \textcolor{unazul}{\footnotesize\faLinkedin} &
+      \href{https://www.linkedin.com/in/rpanades}{linkedin.com/in/rpanades} \\
+    \end{supertabular}
 
-\bigskip
-\switchcolumn*
+    \switchcolumn*
 
-%----------------------------------------------------------------------------------------
-% CV content
-%----------------------------------------------------------------------------------------
+    % ----------------------------------------------------------------------------------------
+    % CV content
+    % ----------------------------------------------------------------------------------------
+    \section{experience}
 
-\section{education}
+    \entry{Third Company}{Third Role}{City, Country}{2023 (3 months)}
+    \begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    \item Pellentesque sit amet mauris malesuada, mattis odio nec.
+    \item Praesent lobortis ac urna a tristique.
+    \end{itemize}
 
-\entry{Second University}{Degree, Major}{City, Country}{2022 -- 2024}
-\begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
-  \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  \item Pellentesque sit amet mauris malesuada, mattis odio nec.
-  \item Praesent lobortis ac urna a tristique.
-\end{itemize}
+    \medskip
 
-\medskip
+    \entry{Second Company}{Second Role}{City, Country}{2022--2023}
+    \begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    \item Pellentesque sit amet mauris malesuada, mattis odio nec.
+    \item Praesent lobortis ac urna a tristique.
+    \end{itemize}
 
-\entry{First University}{Degree, Major}{City, Country}{2019 -- 2022}
+    \medskip
 
-\switchcolumn
+    \entry{First Company}{First Role}{City, Country}{2021--2022}
+    \begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    \item Pellentesque sit amet mauris malesuada, mattis odio nec.
+    \item Praesent lobortis ac urna a tristique.
+    \end{itemize}
 
-\section{skills}
-\begin{supertabular}{rl}
-  \tableentry{\footnotesize\faCode}{Python \textperiodcentered{} C/C++ \textperiodcentered{} Arduino}{}
-  \tableentry{}{TensorFlow \textperiodcentered{} Git \textperiodcentered{} Linux}{}
-  \tableentry{}{}{}
+    \switchcolumn{}
 
-  \tableentry{\footnotesize\faLanguage}{English \textperiodcentered{} proficient}{}
-  \tableentry{}{French \textperiodcentered{} native}{}
-  \tableentry{}{Spanish \textperiodcentered{} advanced}{}
-  \tableentry{}{Arabic \textperiodcentered{} beginner}{}
-\end{supertabular}
+    \section{skills}
+    \begin{supertabular}{rl}
+      \tableentry{\footnotesize\faCode}{Python \textperiodcentered{} C/C++ \textperiodcentered{} Arduino}{}
+      \tableentry{}{TensorFlow \textperiodcentered{} Git \textperiodcentered{} Linux}{}
+      \tableentry{}{}{}
 
-\switchcolumn*
+      \tableentry{\footnotesize\faLanguage}{English \textperiodcentered{} proficient}{}
+      \tableentry{}{French \textperiodcentered{} native}{}
+      \tableentry{}{Spanish \textperiodcentered{} advanced}{}
+      \tableentry{}{Arabic \textperiodcentered{} beginner}{}
+    \end{supertabular}
 
-\section{experience}
+    \section{other interests}
 
-\entry{Third Company}{Third Role}{City, Country}{2023 (3 months)}
-\begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
-  \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  \item Pellentesque sit amet mauris malesuada, mattis odio nec.
-  \item Praesent lobortis ac urna a tristique.
-\end{itemize}
+    \begin{supertabular}{rl}
+      \tableentry{domain}{First Passion}{}
+      \tableentry{}{Second Passion}{spaceafter}
+      \tableentry{domain}{First Passion}{}
+      \tableentry{}{Second Passion}{spaceafter}
+    \end{supertabular}
 
-\medskip
+    \bigskip
 
-\entry{Second Company}{Second Role}{City, Country}{2022 -- 2023}
-\begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
-  \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  \item Pellentesque sit amet mauris malesuada, mattis odio nec.
-  \item Praesent lobortis ac urna a tristique.
-\end{itemize}
+    \switchcolumn*
 
-\medskip
+    \section{education}
 
-\entry{First Company}{First Role}{City, Country}{2021 -- 2022}
-\begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
-  \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  \item Pellentesque sit amet mauris malesuada, mattis odio nec.
-  \item Praesent lobortis ac urna a tristique.
-\end{itemize}
+    \entry{University of Lille}{PhD in Physics}{Lille, France}{2017--2020}
+    \begin{itemize}[noitemsep,leftmargin=3.5mm,rightmargin=0mm,topsep=6pt]
+    \item Development of non-linear optimization and tensor decomposition algorithms
+      in Python, C and Fortran
+      
+    \item Strong problem-solving skills and proficiency in high-dimensional
+      numerical analysis and computational modeling
+    \end{itemize}
 
-\switchcolumn
+    \entry{University of Lille}{MSc in Physics}{Lille, France}{2016--2017}
 
-\section{other interests}
-\begin{supertabular}{rl}
-  \tableentry{domain}{First Passion}{}
-  \tableentry{}{Second Passion}{spaceafter}
-  \tableentry{domain}{First Passion}{}
-  \tableentry{}{Second Passion}{spaceafter}
-\end{supertabular}
+    \entry{University of Havana}{BSc in Radiochemistry}{Havana, Cuba}{2011--2016}
 
-\bigskip
+    \switchcolumn{}
 
-\section{awards}
-\begin{supertabular}{rl}
-  \tableentry{2018}{\textbf{Top-ranked team}}{}
-  \tableentry{}{Some Contest}{spaceafter}
-  \tableentry{2016}{\textbf{Bronze Medal}}{}
-  \tableentry{}{Some Contest}{spaceafter}
-\end{supertabular}
 
-\end{paracol}
+    \section{awards}
+    \begin{supertabular}{rl}
+      \tableentry{2018}{\textbf{Top-ranked team}}{}
+      \tableentry{}{Some Contest}{spaceafter}
+      \tableentry{2016}{\textbf{Bronze Medal}}{}
+      \tableentry{}{Some Contest}{spaceafter}
+    \end{supertabular}
 
-\vspace*{\fill}
+  \end{paracol}
+
+  \vspace*{\fill}
 
 \end{document}
