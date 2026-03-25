@@ -1,0 +1,31 @@
+# LaTeX auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.xdv
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.pdfsync
+*.fdb_latexmk
+
+# Output files
+*.pdf
+*.dvi
+*.ps
+
+# Editor files
+*.swp
+*~
+.vscode/
